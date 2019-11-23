@@ -36,7 +36,7 @@ img{
 .component__code{
     border: 1px solid #ccc;
 }
-h1,h2,h3{
+h1,h2,h3,li{
     font-family: var(--font-display);
     text-transform: uppercase;
     letter-spacing: .08em;
@@ -46,3 +46,21 @@ h1{
     /* background-color:var(--oatblue); */
     font-size: 2.5em;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+li{
+    list-style: none;
+    font-size: 1.2em;
+    float:right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
