@@ -36,11 +36,18 @@ img{
 .component__code{
     border: 1px solid #ccc;
 }
+.container{
+    max-width: 860px;
+    margin: 0 auto;
+}
 h1,h2,h3,li{
     font-family: var(--font-display);
     text-transform: uppercase;
     letter-spacing: .08em;
     line-height:1.2;
+}
+p{
+    text-align: center;
 }
 h1{
     /* background-color:var(--oatblue); */
