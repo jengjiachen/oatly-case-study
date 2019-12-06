@@ -125,16 +125,15 @@ li a {
       text-align: left;
       background-color:#242424;
       font-family: var(--font-sans-serif);
-      color: white;
-      font-size: 13px;
+      color: white;      
       padding: 20px 40px;
       margin: 0;
       overflow:auto; 
   }
   .footer--section{
-    margin:10px;
+    margin:24px;
     float: left;
-    background-color:#242424;
+    font-size: 13px;
   }
   .social{
       margin: 10px 0;
