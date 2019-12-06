@@ -67,6 +67,9 @@ img{
     margin: 0 auto;
     padding: 20px 0;
 }
+.logo{
+  float: left;
+}
 
 h1,h2,h3{
     font-family: var(--font-display);
