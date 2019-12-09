@@ -90,9 +90,21 @@ h1{
     padding: 0;
     overflow: hidden;
   }
+
+.margins{
+  margin-top: 20px;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 li{
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     
     
 }
@@ -113,13 +125,23 @@ li a {
       text-align: left;
       background-color:#242424;
       font-family: var(--font-sans-serif);
-      color: white;
-      font-size: 13px;
+      color: white;      
       padding: 20px 40px;
+      margin: 0;
+      overflow:auto; 
+  }
+  .footer--section{
+    margin:24px;
+    float: left;
+    font-size: 13px;
   }
   .social{
       margin: 10px 0;
       width: 20px;
       display: inline;
+  }
+  .form{
+    border: solid 1px white;
+    padding: 5px 100px 5px 10px;
   }
 
